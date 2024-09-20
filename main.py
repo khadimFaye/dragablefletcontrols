@@ -1,4 +1,4 @@
-from flet import Column, Page, GestureDetector, Image, Colors, Row, Text, MainAxisAlignment, DragUpdateEvent
+from flet import Column, Page, GestureDetector, Image, Colors, Row, Text, MainAxisAlignment, DragUpdateEvent, App
 
 
 def main(psge:Page):
@@ -23,3 +23,6 @@ def main(psge:Page):
                   )
   page.add(layout1)
   page.update()
+
+App(target = main)
+
